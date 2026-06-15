@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Jonathan 👋</h1>
 
 <p align="center">
-  <em>Informatics Engineering student @ ITS Surabaya — into cybersecurity, AI, and building things that work.</em>
+  <em>Informatics Engineering graduate from ITS Surabaya — into cybersecurity, AI, and building things that work.</em>
 </p>
 
 <p align="center">
