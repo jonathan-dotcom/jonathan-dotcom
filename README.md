@@ -1,7 +1,7 @@
-<h1 align="center">Hi, I'm Jonathan 👋</h1>
+<h1 align="center">Hi, I'm Jonathan Adithya Baswara 👋</h1>
 
 <p align="center">
-  <em>Informatics Engineering graduate from ITS Surabaya — into cybersecurity, AI, and building things that work.</em>
+  <em>Information Technology graduate from ITS Surabaya — into Linux, infrastructure, monitoring, and cybersecurity.</em>
 </p>
 
 <p align="center">
@@ -13,26 +13,27 @@
 
 ### 🔭 About me
 
-- 🎓 Studying **Informatics Engineering** at Institut Teknologi Sepuluh Nopember (ITS)
-- 🛡️ Focused on **cybersecurity** — SOC workflows, EDR triage, ethical hacking
-- 🤖 Building with **AI/ML** — plagiarism detection, face matching, auto-grading
-- 🌐 Full-stack tinkerer — Vue, Nuxt, Python, and a bit of everything
+- 🎓 **Information Technology** graduate from Institut Teknologi Sepuluh Nopember (ITS), 2026
+- 🐧 Comfortable with **Linux/Unix**, SSH/CLI work, server administration, and self-hosting
+- 📈 Into **monitoring & observability** — Prometheus, Grafana, Docker-based stacks
+- 🛡️ Heading toward **cybersecurity / SOC** — currently working through TryHackMe Cyber Security 101
+- 🤖 Also build **Python tooling** and tinker with IoT (Raspberry Pi, MQTT, ESP)
 - 📍 Based in Indonesia
 
 ### 🛠️ Tech I work with
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,js,vue,nuxtjs,html,css,nodejs,git,linux" alt="tech stack"/>
+  <img src="https://skillicons.dev/icons?i=linux,python,docker,grafana,prometheus,bash,raspberrypi,git,github,mysql" alt="tech stack"/>
 </p>
 
 ### 📌 Featured projects
 
-| Project | Description |
+| Project | What it is |
 |---|---|
-| [**Auto-Grading & Plagiarism Detection**](https://github.com/jonathan-dotcom/Auto-Grading-and-Plagiarism-Detection-Tool-for-myITSClassroom) | AI tool that auto-grades myITS Classroom assignments and detects plagiarism |
-| [**facematchai**](https://github.com/jonathan-dotcom/facematchai) | Face matching with AI |
-| [**soc-casebook**](https://github.com/jonathan-dotcom/soc-casebook) | SOC investigation casebook & playbooks |
-| [**edr-triage-playbook**](https://github.com/jonathan-dotcom/edr-triage-playbook) | EDR alert triage playbook |
+| [**uxi-lite**](https://github.com/jonathan-dotcom/uxi-lite) | My thesis: open-source wireless-network user-experience monitoring on Raspberry Pi 4 with a Prometheus/Grafana/Docker stack |
+| [**Auto-Grading & Plagiarism Detection**](https://github.com/jonathan-dotcom/Auto-Grading-and-Plagiarism-Detection-Tool-for-myITSClassroom) | Python tool that auto-grades myITS Classroom assignments and flags plagiarism |
+| [**soc-casebook**](https://github.com/jonathan-dotcom/soc-casebook) | SOC investigation casebook & playbooks (learning project) |
+| [**edr-triage-playbook**](https://github.com/jonathan-dotcom/edr-triage-playbook) | EDR alert triage playbook (learning project) |
 
 ### 📊 GitHub stats
 
