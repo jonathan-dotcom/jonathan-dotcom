@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Jonathan's profile banner" width="100%" />
+<img src="assets/field-signal.svg" alt="Abstract systems field signal" width="100%" />
 
 <br />
 
@@ -12,8 +12,8 @@
 
 <br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-18181B?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathanabaswara)
-[![Email](https://img.shields.io/badge/Email-18181B?style=flat-square&logo=gmail&logoColor=white)](mailto:jonathanab03@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=67E8F9)](https://www.linkedin.com/in/jonathanabaswara)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=67E8F9)](mailto:jonathanab03@gmail.com)
 
 </div>
 
@@ -31,35 +31,36 @@ I am Jonathan, an Information Technology student at Institut Teknologi Sepuluh N
 
 I am not presenting myself as a finished Cloud or Security Engineer. I am building toward that direction through hands-on practice, documentation, and real systems.
 
-## What I am exploring now
+## Current state
 
 ```text
-                    CURRENT STATE
-
-  learn       Linux · networking · Python · security foundations
-  build       monitoring, infrastructure, and practical tools
-  practise    inspect → change carefully → verify → document
-  direction   Cloud / DevOps / Infrastructure / Cybersecurity
+┌──────────────────────────────────────────────────────────────┐
+│  JONATHAN / FIELD SIGNAL                                     │
+│                                                              │
+│  learning   Linux · networking · Python · security           │
+│  building   monitoring · infrastructure · practical tools    │
+│  direction  Cloud · DevOps · Infrastructure · Cybersecurity  │
+│  method     inspect → change carefully → verify → document  │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-My current goal is simple: build strong enough fundamentals to operate systems responsibly, not just recognise the names of tools.
+My current goal is to build strong enough fundamentals to operate systems responsibly, not just recognise the names of tools.
 
 ## The kind of work I like
 
 ```text
-┌────────────────────────────────────────────────────────────┐
-│  OBSERVE                                                   │
-│  Find the signal in logs, metrics, requests, and failures. │
-│                                                            │
-│  UNDERSTAND                                                │
-│  Learn the system before changing the system.              │
-│                                                            │
-│  BUILD                                                     │
-│  Turn the understanding into a small, usable solution.     │
-│                                                            │
-│  VERIFY                                                    │
-│  Check what actually happened, then write it down.         │
-└────────────────────────────────────────────────────────────┘
+                 OBSERVE
+                    │
+                    ▼
+              UNDERSTAND
+                    │
+                    ▼
+                BUILD
+                    │
+                    ▼
+                VERIFY
+                    │
+                    └──────► document what happened
 ```
 
 That loop is more important to me than collecting a long list of technologies.
@@ -69,32 +70,30 @@ That loop is more important to me than collecting a long list of technologies.
 - I learn best by operating something myself, observing the result, and diagnosing from evidence.
 - I care about documentation because future-you is also a user.
 - I am interested in the boundary between development and operations: deployment, reliability, monitoring, and security.
-- I use AI tools as engineering assistants, while keeping the responsibility for understanding and verification.
+- I use AI tools as engineering assistants, while keeping responsibility for understanding and verification.
 - I am still learning. The unfinished parts are part of the profile, not something to hide.
 
-## My current toolbox
+## The tools on my bench
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,prometheus,grafana,git,github,raspberrypi&perline=9" alt="Current toolbox" />
 
-</div>
+<br /><br />
 
 `Linux` · `Bash` · `Python` · `Docker` · `Prometheus` · `Grafana` · `Git` · `Raspberry Pi`
 
-## Where I am heading
+</div>
 
-I am gradually moving from general IT coursework toward a more focused path in:
+## Where I am heading
 
 **Linux and infrastructure → observability → cloud foundations → security operations**
 
 The sequence matters. I want the foundations to connect, rather than treating Cloud and Security as collections of fashionable product names.
 
-## Outside the code
+## A note from the lab
 
-I am based in Indonesia and study at ITS. A lot of my learning happens through experiments, notes, troubleshooting, and conversations with people who are willing to explain how things really work.
-
-If you are also interested in Linux, infrastructure, cloud, security, or building practical systems, feel free to connect.
+> I am trying to become the kind of engineer who can look at a running system, form a reasonable hypothesis, test it safely, and explain the result clearly.
 
 <div align="center">
 
@@ -110,4 +109,6 @@ If you are also interested in Linux, infrastructure, cloud, security, or buildin
 
 ---
 
-<sub>Last reviewed: July 2026 · This profile intentionally describes my current direction, not a finished career identity.</sub>
+<sub>Last reviewed: July 2026 · This profile describes my current direction, not a finished career identity.</sub>
+
+<!-- Profile concept: Jonathan / Field Signal. Keep the overview personal; projects are evidence, not the identity. -->

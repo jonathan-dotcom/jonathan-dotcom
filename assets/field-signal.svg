@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Jonathan Adithya Baswara, field signal</title>
+  <desc id="desc">An abstract live systems field diagram with a signal moving through connected nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080B12"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#67E8F9" stop-opacity=".22"/><stop offset="1" stop-color="#67E8F9" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      .grid{stroke:#334155;stroke-opacity:.24;stroke-width:1}.line{fill:none;stroke:#64748B;stroke-opacity:.55;stroke-width:1.5}.node{fill:#0B1220;stroke:#67E8F9;stroke-width:2}.label{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#CBD5E1;font-size:14px;letter-spacing:2px}.tiny{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#67E8F9;font-size:11px;letter-spacing:1px}.pulse{fill:#A7F3D0;filter:url(#blur)}
+      @media(prefers-reduced-motion:reduce){.packet{display:none}}
+    </style>
+  </defs>
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <g class="grid"> <path d="M0 80H1500M0 160H1500M0 240H1500M0 320H1500M0 400H1500M120 0V500M240 0V500M360 0V500M480 0V500M600 0V500M720 0V500M840 0V500M960 0V500M1080 0V500M1200 0V500M1320 0V500M1440 0V500"/></g>
+  <circle cx="1160" cy="260" r="220" fill="url(#glow)"/>
+  <g class="line"><path d="M990 130L1130 210L1290 135L1390 250L1250 350L1080 330L990 130Z"/><path d="M1130 210L1250 350M1290 135L1080 330M990 130L1390 250"/><path d="M1080 330L940 410M1390 250L1470 370"/></g>
+  <g><circle class="node" cx="990" cy="130" r="9"/><circle class="node" cx="1130" cy="210" r="9"/><circle class="node" cx="1290" cy="135" r="9"/><circle class="node" cx="1390" cy="250" r="9"/><circle class="node" cx="1250" cy="350" r="9"/><circle class="node" cx="1080" cy="330" r="9"/></g>
+  <circle class="pulse" cx="0" cy="0" r="15"><animateMotion class="packet" dur="5s" repeatCount="indefinite" path="M990 130L1130 210L1250 350L1080 330L990 130"/></circle>
+  <text x="88" y="118" class="tiny">FIELD NOTE / 2026</text>
+  <text x="88" y="165" class="label">OBSERVE → BUILD → VERIFY</text>
+  <text x="88" y="420" class="tiny">SIGNAL: LEARNING IN PUBLIC</text>
+  <path d="M88 440H410" stroke="#67E8F9" stroke-width="2"/><circle cx="430" cy="440" r="3" fill="#A7F3D0"/>
+</svg>
