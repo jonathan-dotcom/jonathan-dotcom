@@ -8,7 +8,7 @@
 ### Jonathan Adithya Baswara
 
 I build practical tools and tinker with the systems behind them.<br>
-Linux, infrastructure, and automation—with detours into web apps and AI tools.
+Linux, infrastructure, and automation with detours into web apps and AI tools.
 
 [LinkedIn ↗](https://www.linkedin.com/in/jonathanabaswara) &nbsp; · &nbsp; [Email ↗](mailto:jonathanab03@gmail.com)
 
