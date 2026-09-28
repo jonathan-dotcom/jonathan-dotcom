@@ -7,30 +7,30 @@
 
 ### Jonathan Adithya Baswara
 
-I build practical tools and tinker with the systems behind them.<br>
-Linux, infrastructure, and automation with detours into web apps and AI tools.
+**Focused on DevOps & Cloud Engineering**
+
+I deploy and operate applications on Linux servers.<br>
+My focus: repeatable deployments, useful monitoring, and secure access.
 
 [LinkedIn ↗](https://www.linkedin.com/in/jonathanabaswara) &nbsp; · &nbsp; [Email ↗](mailto:jonathanab03@gmail.com)
 
 </div>
 
-### Things I've worked with
+### My infrastructure toolbox
 
-From coursework and team projects to my own self-hosted services.
+**Linux, containers & hosting**
 
-**Code & apps**
+<img src="assets/tools/linux.svg" alt="Linux" height="25"> <img src="assets/tools/docker.svg" alt="Docker" height="25"> <img src="assets/tools/nginx.svg" alt="Nginx" height="25"> <img src="assets/tools/proxmox.svg" alt="Proxmox" height="25"> <img src="assets/tools/cloudflare.svg" alt="Cloudflare" height="25">
 
-<img src="assets/tools/python.svg" alt="Python" height="25"> <img src="assets/tools/javascript.svg" alt="JavaScript" height="25"> <img src="assets/tools/vue.svg" alt="Vue.js" height="25"> <img src="assets/tools/streamlit.svg" alt="Streamlit" height="25">
+**Scripting & version control**
 
-**Systems & hosting**
+<img src="assets/tools/bash.svg" alt="Bash" height="25"> <img src="assets/tools/python.svg" alt="Python" height="25"> <img src="assets/tools/git.svg" alt="Git" height="25">
 
-<img src="assets/tools/linux.svg" alt="Linux" height="25"> <img src="assets/tools/docker.svg" alt="Docker" height="25"> <img src="assets/tools/proxmox.svg" alt="Proxmox" height="25"> <img src="assets/tools/cloudflare.svg" alt="Cloudflare" height="25">
+**Observability**
 
-**Monitoring & hardware**
+<img src="assets/tools/prometheus.svg" alt="Prometheus" height="25"> <img src="assets/tools/grafana.svg" alt="Grafana" height="25">
 
-<img src="assets/tools/prometheus.svg" alt="Prometheus" height="25"> <img src="assets/tools/grafana.svg" alt="Grafana" height="25"> <img src="assets/tools/raspberry-pi.svg" alt="Raspberry Pi" height="25">
+### Where I've put it to work
 
-### A couple of things I've built
-
-- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite)** — Network experience monitoring with a Raspberry Pi sensor, Python, Prometheus, and Grafana.
-- **[Auto-grading & plagiarism checker ↗](https://github.com/jonathan-dotcom/Auto-Grading-and-Plagiarism-Detection-Tool-for-myITSClassroom)** — A team capstone for processing myITS Classroom assignments, built with Python and Streamlit.
+- **Application deployment & migration** — Ubuntu VPS hosting with Nginx, Docker, PM2, and Cloudflare. Hands-on work with DNS/TLS, release verification, production troubleshooting, and recovery documentation.
+- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite)** — A network monitoring project with a Raspberry Pi sensor, a Python metrics exporter, and a Docker-based Prometheus/Grafana stack.

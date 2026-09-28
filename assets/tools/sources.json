@@ -64,5 +64,23 @@
     "file": "raspberry-pi.svg",
     "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/raspberrypi.svg",
     "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Nginx",
+    "file": "nginx.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nginx.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Bash",
+    "file": "bash.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gnubash.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Git",
+    "file": "git.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
   }
 ]
