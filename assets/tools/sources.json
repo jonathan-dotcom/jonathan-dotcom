@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Python",
+    "file": "python.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "JavaScript",
+    "file": "javascript.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/javascript.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Vue.js",
+    "file": "vue.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vuedotjs.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Streamlit",
+    "file": "streamlit.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/streamlit.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Linux",
+    "file": "linux.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linux.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Docker",
+    "file": "docker.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/docker.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Proxmox",
+    "file": "proxmox.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/proxmox.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Cloudflare",
+    "file": "cloudflare.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Prometheus",
+    "file": "prometheus.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/prometheus.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Grafana",
+    "file": "grafana.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/grafana.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Raspberry Pi",
+    "file": "raspberry-pi.svg",
+    "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/raspberrypi.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  }
+]
