@@ -7,7 +7,7 @@
 
 ### Jonathan Adithya Baswara
 
-**Focused on DevOps & Cloud Engineering**
+**Focused on DevOps & Cloud Engineering** </br>
 My focus: repeatable deployments, useful monitoring, and secure access.
 
 [LinkedIn ↗](https://www.linkedin.com/in/jonathanabaswara) &nbsp; · &nbsp; [Email ↗](mailto:jonathanab03@gmail.com)
