@@ -8,8 +8,6 @@
 ### Jonathan Adithya Baswara
 
 **Focused on DevOps & Cloud Engineering**
-
-I deploy and operate applications on Linux servers.<br>
 My focus: repeatable deployments, useful monitoring, and secure access.
 
 [LinkedIn ↗](https://www.linkedin.com/in/jonathanabaswara) &nbsp; · &nbsp; [Email ↗](mailto:jonathanab03@gmail.com)
