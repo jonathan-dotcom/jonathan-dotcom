@@ -78,13 +78,13 @@ def shade(color, factor):
 
 
 def render(days, total, repos, dark=False, mobile=False):
-    width, height = (380, 370) if mobile else (900, 470)
+    width, height = (380, 540) if mobile else (900, 470)
     bg, edge, ink, muted = (
         ("#17201c", "#354238", "#f1eadc", "#b0bdad") if dark else
         ("#faf8f2", "#dedfd4", "#34483a", "#687866")
     )
     levels = (["#2c3b30", "#667d56", "#8ca574", "#b1c690", "#d2dfad"] if dark else
-              ["#e7eadd", "#c9d6b3", "#a7bd87", "#7d9a62", "#526f47"])
+              ["#d1d8c5", "#bdcea2", "#9ab779", "#77965b", "#4b6c3f"])
     active = sum(day["count"] > 0 for day in days)
     updated = datetime.now(timezone.utc).date().isoformat()
     desc = (f"{USER}: {total:,} contributions, {active} active days in GitHub's "
@@ -117,43 +117,53 @@ def render(days, total, repos, dark=False, mobile=False):
 
     # Week and weekday vectors form a shallow isometric calendar. Heights
     # follow GitHub's own five intensity levels, not a computed skill score.
-    step = 4.6 if mobile else 11.5
-    dy = 1.7 if mobile else 2.8
-    vy = 2.5 if mobile else 5.2
-    count_weeks = ((len(days) - 1) // 7) + 1
-    x_origin = (width - (count_weeks - 7) * step) / 2
-    y_origin = 190 if mobile else 210
+    step = 8.6 if mobile else 11.5
+    dy = 2.4 if mobile else 2.8
+    vy = 4.2 if mobile else 5.2
 
-    def poly(points, color):
+    def poly(points, color, outline=None):
         coordinates = " ".join(f"{x:.2f},{y:.2f}" for x, y in points)
-        parts.append(f'<polygon points="{coordinates}" fill="{color}"/>')
+        stroke = f' stroke="{outline}" stroke-width="0.6" stroke-linejoin="round"' if outline else ""
+        parts.append(f'<polygon points="{coordinates}" fill="{color}"{stroke}/>')
 
-    ordered = sorted(enumerate(days), key=lambda item: (item[0] // 7) * dy + (item[0] % 7) * vy)
-    for index, day in ordered:
-        week, weekday = divmod(index, 7)
-        x = x_origin + (week - weekday) * step
-        y = y_origin + week * dy + weekday * vy
-        level = day["level"]
-        depth = (1 + level * (2.2 if mobile else 4.2))
-        a, b = step * 0.88, dy * 0.88
-        c, d = -step * 0.88, vy * 0.88
-        top = [(x, y-depth), (x+a, y+b-depth), (x+a+c, y+b+d-depth), (x+c, y+d-depth)]
-        color = levels[level]
-        parts.append(f'<g><title>{day["date"]}: {day["count"]} contributions</title>')
-        poly([top[1], top[2], (x+a+c, y+b+d), (x+a, y+b)], shade(color, 0.72))
-        poly([top[2], top[3], (x+c, y+d), (x+a+c, y+b+d)], shade(color, 0.86))
-        poly(top, color)
-        parts.append('</g>')
+    panels = [days[:182], days[182:]] if mobile else [days]
+    for panel_index, panel in enumerate(panels):
+        if not panel:
+            continue
+        count_weeks = ((len(panel) - 1) // 7) + 1
+        x_origin = (width - (count_weeks - 7) * step) / 2
+        y_origin = 199 + panel_index * 146 if mobile else 210
+        if mobile:
+            start = datetime.fromisoformat(panel[0]['date']).strftime('%b %Y')
+            end = datetime.fromisoformat(panel[-1]['date']).strftime('%b %Y')
+            text(pad, y_origin - 25, f"{start} — {end}", 13, muted)
+        ordered = sorted(enumerate(panel), key=lambda item: (item[0] // 7) * dy + (item[0] % 7) * vy)
+        for index, day in ordered:
+            week, weekday = divmod(index, 7)
+            x = x_origin + (week - weekday) * step
+            y = y_origin + week * dy + weekday * vy
+            level = day["level"]
+            depth = 1 + level * (3.2 if mobile else 4.2)
+            a, b = step * 0.88, dy * 0.88
+            c, d = -step * 0.88, vy * 0.88
+            top = [(x, y-depth), (x+a, y+b-depth), (x+a+c, y+b+d-depth), (x+c, y+d-depth)]
+            color = levels[level]
+            parts.append(f'<g><title>{day["date"]}: {day["count"]} contributions</title>')
+            poly([top[1], top[2], (x+a+c, y+b+d), (x+a, y+b)], shade(color, 0.72))
+            poly([top[2], top[3], (x+c, y+d), (x+a+c, y+b+d)], shade(color, 0.86))
+            outline = ("#465342" if dark else "#859473") if level == 0 else shade(color, 0.8)
+            poly(top, color, outline)
+            parts.append('</g>')
 
-    legend_y = 305 if mobile else 425
+    legend_y = 478 if mobile else 425
     text(pad, legend_y, "Less", 12 if mobile else 15, muted)
     legend_x = pad + (38 if mobile else 47)
     for index, color in enumerate(levels):
         parts.append(f'<rect x="{legend_x+index*15}" y="{legend_y-10}" width="11" height="11" rx="2" fill="{color}"/>')
     text(legend_x + 80, legend_y, "More", 12 if mobile else 15, muted)
     if mobile:
-        text(pad, 333, f"{days[0]['date']} — {days[-1]['date']}", 12, muted)
-        text(pad, 354, f"Updated {updated} · public GitHub data", 11, muted)
+        text(pad, 505, f"{days[0]['date']} — {days[-1]['date']}", 12, muted)
+        text(pad, 527, f"Updated {updated} · public GitHub data", 11, muted)
     else:
         text(width-pad, legend_y, f"{days[0]['date']} — {days[-1]['date']}", 15, muted, anchor="end")
         text(pad, 452, f"Updated {updated} · public GitHub data", 14, muted)
