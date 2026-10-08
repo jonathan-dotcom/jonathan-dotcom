@@ -32,3 +32,14 @@ My focus: repeatable deployments, useful monitoring, and secure access.
 
 - **Application deployment & migration** — Ubuntu VPS hosting with Nginx, Docker, PM2, and Cloudflare. Hands-on work with DNS/TLS, release verification, production troubleshooting, and recovery documentation.
 - **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite)** — A network monitoring project with a Raspberry Pi sensor, a Python metrics exporter, and a Docker-based Prometheus/Grafana stack.
+
+### A year of building
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/activity-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img src="assets/activity-light.svg" alt="GitHub activity snapshot: contributions, active days, public repositories, and an isometric contribution calendar." width="900">
+</picture>
+
+<sub>Updated daily from my public GitHub profile. Private activity appears only as anonymous counts already shared on GitHub; repository details stay private.</sub>
