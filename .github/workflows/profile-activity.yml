@@ -1,0 +1,66 @@
+name: Profile activity
+
+on:
+  schedule:
+    - cron: '35 23 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/activity.py
+      - scripts/test_activity.py
+      - .github/workflows/profile-activity.yml
+  pull_request:
+    paths:
+      - README.md
+      - scripts/activity.py
+      - scripts/test_activity.py
+      - .github/workflows/profile-activity.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Test the renderer and validate assets
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_activity.py' -v
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          for path in Path('assets').glob('activity-*.svg'):
+              ElementTree.parse(path)
+          PY
+
+  refresh:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Refresh public activity
+        run: python3 scripts/activity.py
+      - name: Commit updated images when needed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/activity-light.svg assets/activity-dark.svg assets/activity-light-mobile.svg assets/activity-dark-mobile.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh public activity snapshot'
+            git push origin HEAD:main
+          fi
