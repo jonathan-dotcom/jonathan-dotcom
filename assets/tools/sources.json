@@ -82,5 +82,35 @@
     "file": "git.svg",
     "icon_source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg",
     "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "PM2",
+    "file": "pm2.svg",
+    "icon_source": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pm2.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "PostgreSQL",
+    "file": "postgresql.svg",
+    "icon_source": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/postgresql.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Redis",
+    "file": "redis.svg",
+    "icon_source": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/redis.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "MQTT",
+    "file": "mqtt.svg",
+    "icon_source": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mqtt.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
+  },
+  {
+    "name": "Tailscale",
+    "file": "tailscale.svg",
+    "icon_source": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tailscale.svg",
+    "icon_license": "CC0-1.0 (Simple Icons); brand trademarks remain with their owners"
   }
 ]

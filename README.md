@@ -18,7 +18,15 @@ My focus: repeatable deployments, useful monitoring, and secure access.
 
 **Linux, containers & hosting**
 
-<img src="assets/tools/linux.svg" alt="Linux" height="25"> <img src="assets/tools/docker.svg" alt="Docker" height="25"> <img src="assets/tools/nginx.svg" alt="Nginx" height="25"> <img src="assets/tools/proxmox.svg" alt="Proxmox" height="25"> <img src="assets/tools/cloudflare.svg" alt="Cloudflare" height="25">
+<img src="assets/tools/linux.svg" alt="Linux" height="25"> <img src="assets/tools/docker.svg" alt="Docker" height="25"> <img src="assets/tools/nginx.svg" alt="Nginx" height="25"> <img src="assets/tools/proxmox.svg" alt="Proxmox" height="25"> <img src="assets/tools/pm2.svg" alt="PM2" height="25">
+
+**Networking & access**
+
+<img src="assets/tools/cloudflare.svg" alt="Cloudflare" height="25"> <img src="assets/tools/tailscale.svg" alt="Tailscale" height="25">
+
+**Databases & messaging**
+
+<img src="assets/tools/postgresql.svg" alt="PostgreSQL" height="25"> <img src="assets/tools/redis.svg" alt="Redis" height="25"> <img src="assets/tools/mqtt.svg" alt="MQTT" height="25">
 
 **Scripting & version control**
 
@@ -30,12 +38,9 @@ My focus: repeatable deployments, useful monitoring, and secure access.
 
 ### Selected infrastructure work
 
-- **Web deployment & migration:** Migrated web services from Vercel to an Ubuntu VPS, covering DNS/TLS, release verification, and rollback documentation.  
-  <sub>Stack: Ubuntu · Nginx · PM2 · Cloudflare · Directus</sub>
-- **Local-first infrastructure:** Worked on a Proxmox-based environment supporting Windows VMs, application services, and device controls, with deployment checks and operator documentation.  
-  <sub>Stack: Proxmox · Windows VMs · PostgreSQL · Redis · MQTT · Home Assistant</sub>
-- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite):** Built a Raspberry Pi monitoring setup with a Python metrics exporter and containerized Prometheus/Grafana.  
-  <sub>Stack: Raspberry Pi · Python · Docker · Prometheus · Grafana</sub>
+- **Web deployment & migration:** Migrated web services from Vercel to an Ubuntu VPS, covering DNS/TLS, release verification, and rollback documentation.
+- **Local-first infrastructure:** Worked on a Proxmox-based environment supporting Windows VMs, application services, and device controls, with deployment checks and operator documentation.
+- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite):** Built a Raspberry Pi monitoring setup with a Python metrics exporter and containerized Prometheus/Grafana.
 
 ### A year of building
 
