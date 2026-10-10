@@ -28,10 +28,14 @@ My focus: repeatable deployments, useful monitoring, and secure access.
 
 <img src="assets/tools/prometheus.svg" alt="Prometheus" height="25"> <img src="assets/tools/grafana.svg" alt="Grafana" height="25">
 
-### Where I've put it to work
+### Selected infrastructure work
 
-- **Application deployment & migration** — Ubuntu VPS hosting with Nginx, Docker, PM2, and Cloudflare. Hands-on work with DNS/TLS, release verification, production troubleshooting, and recovery documentation.
-- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite)** — A network monitoring project with a Raspberry Pi sensor, a Python metrics exporter, and a Docker-based Prometheus/Grafana stack.
+- **Web deployment & migration:** Migrated web services from Vercel to an Ubuntu VPS, covering DNS/TLS, release verification, and rollback documentation.  
+  <sub>Stack: Ubuntu · Nginx · PM2 · Cloudflare · Directus</sub>
+- **Local-first infrastructure:** Worked on a Proxmox-based environment supporting Windows VMs, application services, and device controls, with deployment checks and operator documentation.  
+  <sub>Stack: Proxmox · Windows VMs · PostgreSQL · Redis · MQTT · Home Assistant</sub>
+- **[UXI-Lite ↗](https://github.com/jonathan-dotcom/uxi-lite):** Built a Raspberry Pi monitoring setup with a Python metrics exporter and containerized Prometheus/Grafana.  
+  <sub>Stack: Raspberry Pi · Python · Docker · Prometheus · Grafana</sub>
 
 ### A year of building
 
