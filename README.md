@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/little-desk.png">
-  <img src="assets/little-desk.gif" alt="A little pixel-art desk with a blinking terminal, a sprout, and a steaming mug." width="260">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cloud-lab.png">
+  <img src="assets/cloud-lab.gif" alt="A pixel-art cloud lab with a plant, mug, server rack, and an illustrative build, deploy, and health-check loop." width="352">
 </picture>
 
 ### Jonathan Adithya Baswara
