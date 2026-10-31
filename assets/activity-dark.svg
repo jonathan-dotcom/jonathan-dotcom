@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title description">
 <title id="title">Activity snapshot</title>
-<desc id="description">jonathan-dotcom: 2,446 contributions, 96 active days in GitHub&#x27;s public contribution window, 2025-10-26 to 2026-10-30; 19 public repositories. Includes anonymous private activity only when publicly shared on GitHub.</desc>
+<desc id="description">jonathan-dotcom: 2,461 contributions, 96 active days in GitHub&#x27;s public contribution window, 2025-10-26 to 2026-10-31; 19 public repositories. Includes anonymous private activity only when publicly shared on GitHub.</desc>
 <rect x="1" y="1" width="898" height="468" rx="18" fill="#17201c" stroke="#354238"/>
 <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
 <text x="34" y="45" font-size="28" fill="#f1eadc" font-weight="650" text-anchor="start">Activity snapshot</text>
 <text x="34" y="72" font-size="18" fill="#b0bdad" font-weight="400" text-anchor="start">A year on GitHub</text>
-<text x="34.0" y="136" font-size="44" fill="#f1eadc" font-weight="650" text-anchor="start">2,446</text>
+<text x="34.0" y="136" font-size="44" fill="#f1eadc" font-weight="650" text-anchor="start">2,461</text>
 <text x="34.0" y="165" font-size="18" fill="#b0bdad" font-weight="400" text-anchor="start">Contributions</text>
 <text x="311.3" y="136" font-size="44" fill="#f1eadc" font-weight="650" text-anchor="start">96</text>
 <text x="311.3" y="165" font-size="18" fill="#b0bdad" font-weight="400" text-anchor="start">Active days</text>
@@ -1852,7 +1852,7 @@
 <polygon points="691.50,387.24 681.38,384.78 681.38,385.78 691.50,388.24" fill="#263329"/>
 <polygon points="691.50,380.20 701.62,382.66 691.50,387.24 681.38,384.78" fill="#2c3b30" stroke="#465342" stroke-width="0.6" stroke-linejoin="round"/>
 </g>
-<g><title>2026-10-30: 7 contributions</title>
+<g><title>2026-10-30: 22 contributions</title>
 <polygon points="736.12,378.86 726.00,383.44 726.00,388.64 736.12,384.06" fill="#495a3e"/>
 <polygon points="726.00,383.44 715.88,380.98 715.88,386.18 726.00,388.64" fill="#586c4a"/>
 <polygon points="726.00,376.40 736.12,378.86 726.00,383.44 715.88,380.98" fill="#667d56" stroke="#526445" stroke-width="0.6" stroke-linejoin="round"/>
@@ -1862,6 +1862,11 @@
 <polygon points="703.00,390.04 692.88,387.58 692.88,388.58 703.00,391.04" fill="#263329"/>
 <polygon points="703.00,383.00 713.12,385.46 703.00,390.04 692.88,387.58" fill="#2c3b30" stroke="#465342" stroke-width="0.6" stroke-linejoin="round"/>
 </g>
+<g><title>2026-10-31: 0 contributions</title>
+<polygon points="724.62,388.26 714.50,392.84 714.50,393.84 724.62,389.26" fill="#202a23"/>
+<polygon points="714.50,392.84 704.38,390.38 704.38,391.38 714.50,393.84" fill="#263329"/>
+<polygon points="714.50,385.80 724.62,388.26 714.50,392.84 704.38,390.38" fill="#2c3b30" stroke="#465342" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
 <text x="34" y="425" font-size="15" fill="#b0bdad" font-weight="400" text-anchor="start">Less</text>
 <rect x="81" y="415" width="11" height="11" rx="2" fill="#2c3b30"/>
 <rect x="96" y="415" width="11" height="11" rx="2" fill="#667d56"/>
@@ -1869,6 +1874,6 @@
 <rect x="126" y="415" width="11" height="11" rx="2" fill="#b1c690"/>
 <rect x="141" y="415" width="11" height="11" rx="2" fill="#d2dfad"/>
 <text x="161" y="425" font-size="15" fill="#b0bdad" font-weight="400" text-anchor="start">More</text>
-<text x="866" y="425" font-size="15" fill="#b0bdad" font-weight="400" text-anchor="end">2025-10-26 — 2026-10-30</text>
-<text x="34" y="452" font-size="14" fill="#b0bdad" font-weight="400" text-anchor="start">Updated 2026-10-30 · public GitHub data</text>
+<text x="866" y="425" font-size="15" fill="#b0bdad" font-weight="400" text-anchor="end">2025-10-26 — 2026-10-31</text>
+<text x="34" y="452" font-size="14" fill="#b0bdad" font-weight="400" text-anchor="start">Updated 2026-10-31 · public GitHub data</text>
 </g></svg>
